@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "79111262450",
+    "firebase_url": "https://teksi-203c6.firebaseio.com",
+    "project_id": "teksi-203c6",
+    "storage_bucket": "teksi-203c6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:79111262450:android:1ac8c881b2415112",
+        "android_client_info": {
+          "package_name": "com.example.sajid.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "79111262450-ta4tmkl7hgp6e6ap98117gr87trnv9ku.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.sajid.myapplication",
+            "certificate_hash": "a1e66f5b626cc8b3321488cb9ae1d82a9f87ddc9"
+          }
+        },
+        {
+          "client_id": "79111262450-q5g4l63ekgnhq8mfog1e7rlapooskmm7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCCC8P1-x1JPX_2U7ge23DYwmPqSnAHCsQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "79111262450-q5g4l63ekgnhq8mfog1e7rlapooskmm7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_blue_light"
+    >
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="152dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:scaleType="fitXY"
+
+        app:srcCompat="@drawable/texi3" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="160dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        >
+        <Button
+            android:id="@+id/customerdetails_admin1"
+            android:layout_width="wrap_content"
+            android:layout_height="62dp"
+            android:layout_margin="10dp"
+            android:background="@color/gray"
+            android:text="Customer"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/form_for_admin1"
+            android:layout_width="wrap_content"
+            android:layout_height="62dp"
+            android:background="@color/gray"
+            android:text="Form"
+            android:layout_margin="10dp"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/list_for_admin1"
+            android:layout_width="wrap_content"
+            android:layout_height="62dp"
+            android:background="@color/gray"
+            android:layout_margin="10dp"
+            android:text="List"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white" />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/ri"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="200dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+        <EditText
+            android:id="@+id/drivername1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Driver Name"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/notaxi1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="No. Taxi"
+            />
+
+        <EditText
+            android:id="@+id/phone_admin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Phone Number"
+            android:inputType="phone" />
+
+        <EditText
+            android:id="@+id/place_admin1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Place"
+            android:inputType="textPersonName" />
+
+        <Button
+            android:id="@+id/done_admin1"
+            android:layout_width="149dp"
+            android:layout_height="wrap_content"
+            android:background="@color/gray"
+            android:text="Done"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white" />
+
+        <ProgressBar
+            android:id="@+id/progressBars3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_centerInParent="true"
+            android:visibility="gone"
+
+            />
+
+
+    </LinearLayout>
+
+</RelativeLayout>
